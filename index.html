@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web3 Dev Studio | 专业区块链开发团队</title>
+  <meta name="description" content="专业 Web3 开发团队，提供 DeFi、智能合约、公链、GameFi、BSC、Solana 等全链全栈区块链开发服务" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner container">
+    <div class="logo">
+      <span class="logo-icon">&#9670;</span>
+      <span>Web3 Dev Studio</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#services">服务</a></li>
+      <li><a href="#chains">支持公链</a></li>
+      <li><a href="#process">流程</a></li>
+      <li><a href="#contact">联系我们</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary nav-cta">立即咨询</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">&#9776;</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services">服务</a>
+    <a href="#chains">支持公链</a>
+    <a href="#process">流程</a>
+    <a href="#contact">联系我们</a>
+    <a href="#contact" class="btn btn-primary" style="margin-top:8px;">立即咨询</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="grid-overlay"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="badge">🔥 专业 Web3 技术团队 · 快速交付</div>
+    <h1>专注 Web3 全栈开发<br /><span class="gradient-text">链上一切皆可构建</span></h1>
+    <p class="hero-desc">DeFi · 智能合约 · 公链开发 · GameFi · NFT · 跨链桥 · DEX · DAO<br />多年链上开发经验，支持以太坊、BSC、Solana 等所有主流公链</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary btn-lg">免费咨询项目</a>
+      <a href="#services" class="btn btn-outline btn-lg">查看服务</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">200+</span>
+        <span class="stat-label">完成项目</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">50+</span>
+        <span class="stat-label">支持公链</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">按时交付</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">24h</span>
+        <span class="stat-label">快速响应</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">服务范围</div>
+      <h2>全方位 Web3 开发服务</h2>
+      <p>从智能合约到完整 DApp，我们覆盖区块链开发的每一个环节</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon" style="background:linear-gradient(135deg,#667eea,#764ba2);">&#9670;</div>
+        <h3>DeFi 协议开发</h3>
+        <p>AMM DEX、借贷协议、流动性挖矿、Yield Farming、稳定币系统、衍生品协议</p>
+        <ul class="service-tags">
+          <li>Uniswap V3 Fork</li>
+          <li>Compound / Aave 模式</li>
+          <li>质押 &amp; 挖矿</li>
+          <li>闪电贷</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" style="background:linear-gradient(135deg,#f093fb,#f5576c);">&lt;/&gt;</div>
+        <h3>智能合约开发</h3>
+        <p>Solidity / Rust / Move 合约开发，专业审计，Gas 优化，升级合约，合约安全加固</p>
+        <ul class="service-tags">
+          <li>ERC20 / ERC721 / ERC1155</li>
+          <li>多签钱包</li>
+          <li>合约安全审计</li>
+          <li>代理升级</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" style="background:linear-gradient(135deg,#4facfe,#00f2fe);">&#9650;</div>
+        <h3>公链 &amp; Layer2 开发</h3>
+        <p>自研公链、Rollup、侧链、共识机制、节点搭建、RPC 接口、区块浏览器</p>
+        <ul class="service-tags">
+          <li>EVM 兼容链</li>
+          <li>Cosmos SDK</li>
+          <li>Substrate</li>
+          <li>OP / ZK Rollup</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" style="background:linear-gradient(135deg,#43e97b,#38f9d7);">&#9679;</div>
+        <h3>GameFi &amp; NFT</h3>
+        <p>链游开发、NFT 交易市场、Play-to-Earn 机制、元宇宙资产系统、链上随机数</p>
+        <ul class="service-tags">
+          <li>NFT Marketplace</li>
+          <li>链游经济模型</li>
+          <li>链上随机</li>
+          <li>元宇宙</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" style="background:linear-gradient(135deg,#fa709a,#fee140);">&#8652;</div>
+        <h3>跨链桥 &amp; 聚合器</h3>
+        <p>多链资产桥接、跨链消息传递、DEX 聚合路由、链间资产映射、锁定铸造机制</p>
+        <ul class="service-tags">
+          <li>Lock &amp; Mint 桥</li>
+          <li>LayerZero 集成</li>
+          <li>聚合路由</li>
+          <li>跨链治理</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" style="background:linear-gradient(135deg,#a18cd1,#fbc2eb);">&#9670;</div>
+        <h3>DAO &amp; 治理系统</h3>
+        <p>去中心化治理框架、链上投票、提案系统、多签治理、Token 权益分配</p>
+        <ul class="service-tags">
+          <li>Snapshot 集成</li>
+          <li>链上投票</li>
+          <li>Treasury 管理</li>
+          <li>Timelock</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAINS -->
+<section class="section section-dark" id="chains">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">多链支持</div>
+      <h2>支持所有主流公链生态</h2>
+      <p>EVM 兼容链 · Solana · Aptos · Sui · Cosmos 生态 · 全覆盖</p>
+    </div>
+    <div class="chains-grid">
+      <div class="chain-card"><div class="chain-logo eth">ETH</div><span>Ethereum</span></div>
+      <div class="chain-card"><div class="chain-logo bsc">BNB</div><span>BSC / BNB Chain</span></div>
+      <div class="chain-card"><div class="chain-logo sol">SOL</div><span>Solana</span></div>
+      <div class="chain-card"><div class="chain-logo polygon">MATIC</div><span>Polygon</span></div>
+      <div class="chain-card"><div class="chain-logo arb">ARB</div><span>Arbitrum</span></div>
+      <div class="chain-card"><div class="chain-logo op">OP</div><span>Optimism</span></div>
+      <div class="chain-card"><div class="chain-logo avax">AVAX</div><span>Avalanche</span></div>
+      <div class="chain-card"><div class="chain-logo base">BASE</div><span>Base</span></div>
+      <div class="chain-card"><div class="chain-logo apt">APT</div><span>Aptos</span></div>
+      <div class="chain-card"><div class="chain-logo sui">SUI</div><span>Sui</span></div>
+      <div class="chain-card"><div class="chain-logo cosmos">ATOM</div><span>Cosmos</span></div>
+      <div class="chain-card"><div class="chain-logo ton">TON</div><span>TON</span></div>
+      <div class="chain-card"><div class="chain-logo near">NEAR</div><span>NEAR</span></div>
+      <div class="chain-card"><div class="chain-logo tron">TRX</div><span>TRON</span></div>
+      <div class="chain-card"><div class="chain-logo zksync">ZK</div><span>zkSync Era</span></div>
+      <div class="chain-card"><div class="chain-logo more">+</div><span>更多公链...</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">合作流程</div>
+      <h2>简单高效的合作方式</h2>
+      <p>从需求沟通到项目交付，全程透明可控</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <div class="step-content">
+          <h3>需求沟通</h3>
+          <p>加微信或 QQ 说明项目需求，我们免费提供技术方案评估和报价</p>
+        </div>
+      </div>
+      <div class="process-arrow">&#8594;</div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <div class="step-content">
+          <h3>方案确认</h3>
+          <p>出具详细开发方案、技术架构、时间规划，双方确认后签订协议</p>
+        </div>
+      </div>
+      <div class="process-arrow">&#8594;</div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <div class="step-content">
+          <h3>开发交付</h3>
+          <p>敏捷开发，定期汇报进度，代码审查，合约审计，测试网部署</p>
+        </div>
+      </div>
+      <div class="process-arrow">&#8594;</div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <div class="step-content">
+          <h3>上线维护</h3>
+          <p>主网部署，运营支持，代码开源或私有化，提供长期技术维护</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-text">
+        <div class="section-tag">为什么选择我们</div>
+        <h2>专业 · 快速 · 靠谱</h2>
+        <p>我们是一支深耕区块链行业多年的技术团队，拥有丰富的链上项目实战经验，熟悉各类公链底层架构与 DeFi 协议设计。</p>
+        <ul class="why-list">
+          <li>
+            <span class="check">&#10003;</span>
+            <div><strong>全栈区块链能力</strong> — 智能合约到前端 DApp，一站式交付</div>
+          </li>
+          <li>
+            <span class="check">&#10003;</span>
+            <div><strong>安全优先</strong> — 所有合约经过严格审计，防止常见攻击</div>
+          </li>
+          <li>
+            <span class="check">&#10003;</span>
+            <div><strong>快速响应</strong> — 24小时内回复需求，项目启动快</div>
+          </li>
+          <li>
+            <span class="check">&#10003;</span>
+            <div><strong>价格透明</strong> — 按需报价，无隐藏费用</div>
+          </li>
+          <li>
+            <span class="check">&#10003;</span>
+            <div><strong>长期支持</strong> — 提供项目上线后持续技术支持</div>
+          </li>
+        </ul>
+      </div>
+      <div class="why-visual">
+        <div class="tech-stack">
+          <div class="tech-row">
+            <span class="tech-pill">Solidity</span>
+            <span class="tech-pill">Rust</span>
+            <span class="tech-pill">Move</span>
+          </div>
+          <div class="tech-row">
+            <span class="tech-pill">Hardhat</span>
+            <span class="tech-pill">Foundry</span>
+            <span class="tech-pill">Anchor</span>
+          </div>
+          <div class="tech-row">
+            <span class="tech-pill">React</span>
+            <span class="tech-pill">ethers.js</span>
+            <span class="tech-pill">web3.js</span>
+          </div>
+          <div class="tech-row">
+            <span class="tech-pill">The Graph</span>
+            <span class="tech-pill">IPFS</span>
+            <span class="tech-pill">Chainlink</span>
+          </div>
+          <div class="tech-row">
+            <span class="tech-pill">LayerZero</span>
+            <span class="tech-pill">Wagmi</span>
+            <span class="tech-pill">Viem</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">联系我们</div>
+      <h2>准备好开始你的 Web3 项目了吗？</h2>
+      <p>添加微信或 QQ，免费获取项目评估和技术方案</p>
+    </div>
+    <div class="contact-cards">
+      <div class="contact-card">
+        <div class="contact-icon wechat-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+            <ellipse cx="17" cy="20" rx="14" ry="11" fill="#07C160" />
+            <circle cx="12" cy="20" r="2" fill="white"/>
+            <circle cx="22" cy="20" r="2" fill="white"/>
+            <path d="M25 28c3 0 9 3 9 8s-6 8-9 8c-2 0-4-0.5-5-1l-4 1 1-3c-1-1-2-3-2-5 0-4 4-8 10-8z" fill="#07C160"/>
+            <circle cx="29" cy="36" r="1.5" fill="white"/>
+            <circle cx="35" cy="36" r="1.5" fill="white"/>
+          </svg>
+        </div>
+        <div class="contact-info">
+          <div class="contact-label">微信 WeChat</div>
+          <div class="contact-value">life_clu</div>
+          <button class="btn btn-copy" onclick="copyText('life_clu', this)">复制微信号</button>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon qq-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+            <ellipse cx="24" cy="22" rx="14" ry="16" fill="#12B7F5"/>
+            <ellipse cx="24" cy="36" rx="7" ry="3" fill="#12B7F5"/>
+            <circle cx="19" cy="20" r="2.5" fill="white"/>
+            <circle cx="29" cy="20" r="2.5" fill="white"/>
+            <circle cx="19.8" cy="19.2" r="1" fill="#12B7F5"/>
+            <circle cx="29.8" cy="19.2" r="1" fill="#12B7F5"/>
+          </svg>
+        </div>
+        <div class="contact-info">
+          <div class="contact-label">QQ</div>
+          <div class="contact-value">862445417</div>
+          <button class="btn btn-copy" onclick="copyText('862445417', this)">复制 QQ 号</button>
+        </div>
+      </div>
+    </div>
+    <div class="contact-note">
+      <p>&#128337; 工作时间 9:00 - 22:00 · 节假日不休 · 24小时内必回复</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <span>Web3 Dev Studio</span>
+      </div>
+      <p class="footer-desc">专业区块链开发团队 · 全链全栈 · 安全可靠</p>
+      <div class="footer-links">
+        <a href="#services">服务</a>
+        <a href="#chains">公链支持</a>
+        <a href="#process">合作流程</a>
+        <a href="#contact">联系我们</a>
+      </div>
+      <p class="footer-copy">&copy; 2024 Web3 Dev Studio · 微信 life_clu · QQ 862445417</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
